@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Tabular numbers for price and metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle artisanal kitchen paper & countertop texture */
+.bg-artisanal-kitchen {
+  background-color: #faf6f0;
+  background-image:
+    radial-gradient(at 100% 0%, rgba(217, 119, 6, 0.04) 0px, transparent 55%),
+    radial-gradient(at 0% 100%, rgba(180, 83, 9, 0.04) 0px, transparent 55%),
+    radial-gradient(rgba(145, 120, 95, 0.16) 0.85px, transparent 0.85px),
+    linear-gradient(to bottom, #faf7f2 0%, #f7f1e7 100%);
+  background-size: 100% 100%, 100% 100%, 22px 22px, 100% 100%;
+  background-attachment: fixed;
+}
+

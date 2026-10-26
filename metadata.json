@@ -1,0 +1,8 @@
+{
+  "name": "Sri Sathya Sai Mess",
+  "description": "Authentic South Indian military and homestyle food ordering with rich curries, biryanis, full meals, and owner admin dashboard.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
